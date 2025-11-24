@@ -121,7 +121,7 @@ function lib:CreateWindow(title)
 		
 		
 			local tweenInfo = TweenInfo.new(1, Enum.EasingStyle.Linear, Enum.EasingDirection.In, -1)
-			local tween = TweenService:Create(LoadingRing, tweenInfo, {Rotation=360})
+			local tween = TweenService:Create(LoadingRing, tweenInfo, {Rotation=0})
 			tween:Play()
 		end
 		coroutine.wrap(ScriptOther)()
@@ -391,7 +391,7 @@ function lib:CreateWindow(title)
                     Size = UDim2.new(1, -5, 0, 15),
                     Font = window.Font,
                     Text = secTitle,
-                    TextColor3 = Color3.fromRGB(255, 255, 255),
+                    TextColor3 = Color3.fromRGB(23, 159, 28),
                     TextSize = 14,
                     TextXAlignment = Enum.TextXAlignment.Left
                 }),
@@ -554,7 +554,7 @@ function lib:CreateWindow(title)
                         Size = UDim2.new(0, 20, 0, 20),
                         Position = UDim2.new(0.5, -10, 0.5, -10),
                         Image = "http://www.roblox.com/asset/?id=18118482242",
-                        ImageColor3 = Color3.fromRGB(255, 255, 255),
+                        ImageColor3 = Color3.fromRGB(23, 159, 28),
                         ImageTransparency = t1.State and 0 or 1
                     })
                 })
