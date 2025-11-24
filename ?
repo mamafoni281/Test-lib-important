@@ -100,7 +100,7 @@ function lib:CreateWindow(title)
             Position = UDim2.new(0, 25, 0, 1),
             Text = title,
             Font = Enum.Font.Roboto,
-            TextColor3 = Color3.fromRGB(243, 243, 243),
+            TextColor3 = Color3.fromRGB(23, 159, 28),
             TextSize = 13,
             TextXAlignment = Enum.TextXAlignment.Left
 		}), Create("ImageLabel", {
